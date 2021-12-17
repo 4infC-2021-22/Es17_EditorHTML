@@ -175,5 +175,10 @@ namespace Es17_EditorHTML
         {
             //
         }
+
+        private void ToolStripButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

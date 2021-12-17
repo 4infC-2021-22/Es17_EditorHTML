@@ -219,7 +219,7 @@
             // 
             this.annullaToolStripMenuItem.Name = "annullaToolStripMenuItem";
             this.annullaToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Z)));
-            this.annullaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.annullaToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.annullaToolStripMenuItem.Text = "&Annulla";
             this.annullaToolStripMenuItem.Click += new System.EventHandler(this.annullaToolStripMenuItem_Click);
             // 
@@ -227,7 +227,7 @@
             // 
             this.ripristinaToolStripMenuItem.Name = "ripristinaToolStripMenuItem";
             this.ripristinaToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Y)));
-            this.ripristinaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ripristinaToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.ripristinaToolStripMenuItem.Text = "&Ripristina";
             this.ripristinaToolStripMenuItem.Click += new System.EventHandler(this.ripristinaToolStripMenuItem_Click);
             // 
@@ -242,7 +242,7 @@
             this.tagliaToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tagliaToolStripMenuItem.Name = "tagliaToolStripMenuItem";
             this.tagliaToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
-            this.tagliaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.tagliaToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.tagliaToolStripMenuItem.Text = "&Taglia";
             this.tagliaToolStripMenuItem.Click += new System.EventHandler(this.tagliaToolStripMenuItem_Click);
             // 
@@ -252,7 +252,7 @@
             this.copiaToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.copiaToolStripMenuItem.Name = "copiaToolStripMenuItem";
             this.copiaToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-            this.copiaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.copiaToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.copiaToolStripMenuItem.Text = "&Copia";
             this.copiaToolStripMenuItem.Click += new System.EventHandler(this.copiaToolStripMenuItem_Click);
             // 
@@ -262,7 +262,7 @@
             this.incollaToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.incollaToolStripMenuItem.Name = "incollaToolStripMenuItem";
             this.incollaToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
-            this.incollaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.incollaToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.incollaToolStripMenuItem.Text = "&Incolla";
             this.incollaToolStripMenuItem.Click += new System.EventHandler(this.incollaToolStripMenuItem_Click);
             // 
@@ -466,6 +466,7 @@
             this.ToolStripButton.Name = "ToolStripButton";
             this.ToolStripButton.Size = new System.Drawing.Size(23, 22);
             this.ToolStripButton.Text = "&?";
+            this.ToolStripButton.Click += new System.EventHandler(this.ToolStripButton_Click);
             // 
             // statusStripHTML
             // 
